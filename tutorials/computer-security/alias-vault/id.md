@@ -5,51 +5,29 @@ description: Alat yang ampuh untuk mengelola kata sandi, autentikasi dua faktor,
 
 ![cover](assets/cover.webp)
 
+Privasi dan keamanan online adalah topik yang harus diperhatikan oleh siapa pun, tanpa memandang bidang pekerjaannya.
 
+Isu-isu ini berada dalam dunia yang terus berkembang: semakin banyak pengembang yang berpartisipasi, menghadirkan implementasi baru pada solusi yang sudah ada maupun produk-produk inovatif.
 
-Privasi dan keamanan online adalah topik yang harus diperhatikan oleh siapa pun, apa pun bisnisnya,.
+Salah satu inovasi tersebut datang dari **Leendert de Borst** dengan `Alias Vault` buatannya. Ini adalah alat revolusioner (yang pertama di jenisnya) yang memungkinkan Anda mengelola dan menyimpan kata sandi, melakukan autentikasi ke layanan web, mengelola autentikasi dua faktor (2FA), dan yang paling penting: menghasilkan alias sungguhan, semuanya dalam satu Interface tunggal.
 
-
-
-Selain itu, masalah-masalah ini adalah bagian dari dunia yang terus bergejolak: semakin banyak pengembang yang berpartisipasi dalam topik ini, membawa implementasi ke solusi yang sudah mapan dan produk baru.
-
-
-
-Ini adalah kasus dengan **Leendert de Borst** dan `Alias Vault`, sebuah alat revolusioner (yang pertama dari jenisnya) yang memungkinkan Anda untuk mengelola dan menyimpan kata sandi, menggunakan catatan kata sandi untuk mengautentikasi ke layanan web, mengelola autentikasi dua faktor, tetapi yang paling penting adalah generate real _alias_, semuanya dalam satu Interface.
-
-
-
-**Tapi Alias Vault tidak berhenti sampai di situ saja**.
-
-
+**Tapi Alias Vault tidak berhenti sampai di situ saja**
 
 ## Fitur Utama
 
-
-
-Alias Vault bekerja di awan pada server pengembang atau di-host sendiri di infrastrukturnya sendiri, sebuah opsi yang menyediakan berkas dan citra Docker untuk diinstal dengan scipt. Selain web Interface, ekstensi tersedia untuk semua peramban populer, serta aplikasi seluler untuk iOS dan Android; yang terakhir ini juga bisa diunduh dari F-Droid, melewati toko resmi Google.
-
-
+Alias Vault bekerja di cloud pada server pengembang atau dapat di-host mandiri (self-hosted) di infrastruktur Anda sendiri menggunakan Docker. Selain interface web, tersedia ekstensi untuk semua peramban populer serta aplikasi seluler untuk iOS dan Android. Pengguna Android bahkan dapat mengunduhnya melalui F-Droid untuk menghindari ketergantungan pada Google Play Store.
 
 Dalam satu Interface Alias Vault ini:
 
+- **Gratis dan open source**
+- **Pengelola Kata Sandi**, untuk menyimpan semua kata sandi yang kompleks. Dengan menggunakan ekstensi browser, pengelola kata sandi menyelesaikan proses login ke situs web
+- **2FA**, Mendukung autentikasi dua faktor (TOTP).
+- **Pengelola alias dengan server email yang disematkan**: Alias Vault tidak membuat alias yang meneruskan email ke kotak surat pengguna; namun, ia membuat alias yang sebenarnya, lengkap dengan nama depan, nama belakang, jenis kelamin, nama pengguna, kata sandi, dan tanggal lahir (jika informasi ini diperlukan).
+- **Pengelola Alias dengan Server Email Terintegrasi:** Berbeda dengan layanan lain, Alias Vault tidak hanya meneruskan (forward) email, tetapi menciptakan "identitas alter-ego" lengkap dengan nama depan, nama belakang, jenis kelamin, nama pengguna, kata sandi, dan tanggal lahir (jika informasi ini diperlukan).
 
-
-
-- Gratis dan sumber terbuka**
-- Pengelola Kata Sandi**, untuk menyimpan semua kata sandi yang rumit. Dengan menggunakan ekstensi peramban, pengelola kata sandi menyelesaikan proses masuk ke situs web
-- 2FA**, untuk mendukung autentikasi dua faktor
-- Pengelola alias dengan server email yang disematkan**: Alias Vault tidak membuat alias yang meneruskan email ke kotak surat pengguna; namun, ia membuat alias yang sebenarnya, lengkap dengan nama depan, nama belakang, jenis kelamin, nama pengguna, kata sandi, dan tanggal lahir (jika informasi ini diperlukan).
-
-
-
-Dokumentasi yang ekstensif dan menyeluruh adalah bagian dari paket, yang akan menemani pendatang baru dalam menemukan alat yang dahsyat ini.
-
-
+Paket ini juga mencakup dokumentasi yang luas dan mendalam untuk memandu pengguna baru dalam menjelajahi fungsionalitas alat yang canggih ini.
 
 ## Tidak ada data pribadi!
-
-
 
 Dimulai, seperti biasa, dari situs web [aliasvault.net](aliasvault.net). Seperti yang telah disebutkan, Alias Vault bisa digunakan pada server sendiri, atau dari cloud pengembang untuk mengenalnya sebelum beralih ke solusi yang dihosting sendiri.
 
